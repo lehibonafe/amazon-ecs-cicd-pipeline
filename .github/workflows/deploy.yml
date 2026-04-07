@@ -46,7 +46,7 @@ jobs:
       - name: Update ECS service
         uses: aws-actions/amazon-ecs-deploy-task-definition@v2
         with:
-          task-definition: ecs-task-definition.json
+          task-definition: ../ecs-task-definition.json
           service: ${{ secrets.ECS_SERVICE_NAME }}
           cluster: ${{ secrets.ECS_CLUSTER_NAME }}
           wait-for-service-stability: true
