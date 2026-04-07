@@ -44,6 +44,7 @@ jobs:
       
       # Step 7. Create new ECS task definition revision
       - name: Fill in ECS task definition
+        id: render
         uses: aws-actions/amazon-ecs-render-task-definition@v1
         with:
           task-definition: ecs-task-definition.json
