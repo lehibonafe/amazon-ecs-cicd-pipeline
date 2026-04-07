@@ -19,5 +19,6 @@ npm start
 ```
 http://localhost:3000
 ```
-![alt text](image.png)
 
+
+![alt text](<result.png>)
