@@ -1,7 +1,7 @@
 
-### 1. Cloe the repo:
+### 1. Clone the repo:
 ```
-git clone 
+git clone https://github.com/lehibonafe/docker-ecs-fargate-cicd.git
 cd node-fargate-app
 ```
 
