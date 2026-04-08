@@ -48,7 +48,7 @@ jobs:
 
       # Step 6. Inject new image into task definition
       - name: Render new ECS task definition with updated image
-        id: render-task-def
+        id: render
         uses: aws-actions/amazon-ecs-render-task-definition@v1
         with:
           task-definition: task-definition.json
