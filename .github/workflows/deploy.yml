@@ -42,7 +42,7 @@ jobs:
       - name: Download current task definition
         run: |
           aws ecs describe-task-definition \
-            --task-definition ${{ secrets.ECS_SERVICE }} \
+            --task-definition node-fargate-app \
             --query taskDefinition \
             > task-definition.json
 
